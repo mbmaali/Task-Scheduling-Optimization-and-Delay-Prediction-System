@@ -234,35 +234,7 @@ python main.py
 jupyter notebook notebooks/exploratory_analysis.ipynb
 ```
 
-## Suggested GitHub Screenshots
 
-Representative figures are already included:
-- [outputs/figures/overall_delay_rate.png](outputs/figures/overall_delay_rate.png)
-- [outputs/figures/delay_rate_by_department.png](outputs/figures/delay_rate_by_department.png)
-- [outputs/figures/before_after_workload_distribution.png](outputs/figures/before_after_workload_distribution.png)
-- [outputs/figures/before_after_cost_comparison.png](outputs/figures/before_after_cost_comparison.png)
-
-## Resume-Friendly Description
-
-Built a Python workflow analytics and optimization project that cleaned operational task data, benchmarked delay-risk models, and used linear programming to improve employee-task assignment decisions.
-
-### Resume Bullet Points
-
-- Built an end-to-end Industrial Engineering portfolio project in Python using `pandas`, `scikit-learn`, and `PuLP` to analyze workflow operations and support task assignment decisions.
-- Designed a linear programming assignment model that reduced estimated cost, improved workload balance, and reduced overloaded employees in a what-if scheduling scenario.
-- Benchmarked multiple delay classification models and documented class-imbalance limitations clearly instead of overstating model performance.
-
-## How To Talk About It In An Interview
-
-A good short explanation is:
-
-"I built a workflow analytics project that combines operations analysis with a simple scheduling optimization model. I first cleaned the workflow data and created timing, workload, and cost features. Then I tested a few classification models to estimate delay risk. After that, I used those risk estimates in a PuLP optimization model that assigns tasks to employees while balancing workload and cost. The most valuable result was the optimization comparison, because it showed how assignment decisions could reduce overload and operating cost."
-
-If asked why the project is still valuable even though the model has limitations, say:
-
-"I treated the machine learning component honestly. The dataset is heavily imbalanced, so I documented that the classifier is exploratory. The stronger part of the project is the Industrial Engineering logic: measuring workflows, identifying bottlenecks, and improving assignments with a constrained optimization model."
-
-## Future Improvements
 
 - use a time-based validation split instead of a purely random split
 - add better class-imbalance handling and threshold tuning
