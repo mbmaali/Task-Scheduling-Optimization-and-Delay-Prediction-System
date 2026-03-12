@@ -1,0 +1,10 @@
+Optimization Model Summary
+============================================================
+Tasks optimized: 20
+Candidate employees: 35
+Department compatibility enforced: False
+Total predicted delay risk before: 19.9797
+Total predicted delay risk after: 19.7060
+Total cost before: $3614.29
+Total cost after: $3166.08
+Model objective: minimize predicted delay risk, workload imbalance, and cost.

@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Keep the repository code-only; the raw Kaggle dataset should not be committed.
+data/workflow_data.csv
+data/AI_Workflow_Optimization_Dataset_2500_Rows_v1.csv
+
+# Ignore regenerated binary artifacts.
+outputs/models/*.joblib
+
+# Optional: ignore large regenerated reports that are not needed in the repo.
+outputs/reports/cleaned_engineered_workflow_data.csv

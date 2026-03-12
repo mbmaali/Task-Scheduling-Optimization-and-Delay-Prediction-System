@@ -1,0 +1,7 @@
+metric,before,after,improvement,metric_label
+average_workload,1060.10396268084,1060.10396268084,0.0,Average Workload
+workload_standard_deviation,179.20926082609577,135.33351371179975,43.87574711429602,Workload Standard Deviation
+average_predicted_delay_risk,0.9989842458936053,0.9853011513419878,0.013683094551617536,Average Predicted Delay Risk
+total_predicted_delay_risk,19.979684917872106,19.706023026839755,0.2736618910323507,Total Predicted Delay Risk
+total_cost,3614.2947370834167,3166.078561790981,448.21617529243576,Total Estimated Cost
+number_of_overloaded_employees,6.0,4.0,2.0,Overloaded Employees
